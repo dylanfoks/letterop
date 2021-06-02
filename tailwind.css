@@ -3,9 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-
-.card-a {
-  @apply bg-white;
+  .card-a {
+    @apply bg-white hover:bg-red-400;
   }
-  
 }
