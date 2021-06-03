@@ -9,25 +9,252 @@
 
     <title>Letterop</title>
   </head>
-  <body class="bg-blue-100 debug-screens">
+  <body class="bg-secondary debug-screens">
+    <!-- Quick Menu -->
+    <div class="relative flex justify-end mx-8 mt-8 xl:mx-24">
+      <!-- Info Icon -->
+      <a href="info.html">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="ml-4 w-7 h-7 text-primary"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
+        </svg>
+      </a>
+    </div>
+
     <!-- Navigation Menu -->
-    <nav class="flex justify-between bg-blue-200">
-      <div class="#">Letterop</div>
-      <ul class="flex">
-        <li>Home</li>
-        <li>Info</li>
-        <li>More</li>
-      </ul>
+    <nav class="flex justify-center p-8 mx-auto text-center">
+      <div class="">
+        <img class="h-28 md:h-36 xl:h-52" src="img/logo_letterop.svg" alt="" />
+        <p class="mt-8 slogan">een webgids voor typografie</p>
+      </div>
     </nav>
 
     <!-- Content -->
-    <section class="container mx-auto my-20">
+    <section class="mx-8 my-8 xl:mx-24">
       <div
-        class="grid items-center justify-center grid-flow-row grid-cols-1 gap-4 px-20 mx-auto "
+        class="grid items-center justify-center grid-cols-1 gap-8  md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4"
       >
-        <div class="px-6 py-4 card-a h-52 rounded-xl">Jatog</div>
-        <div class="card-a h-52">Jatog</div>
-        <div class="card-a h-52">Jatog</div>
+        <!-- Hiërarchie -->
+        <div id="hierarchie" class="grid items-end px-6 py-4 card-a">
+          <h1 class="label-title">Hiërarchie</h1>
+          <div class="flex items-center flex-nowrap">
+            <p class="label-summ">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+              laborum.
+            </p>
+            <div class="flex justify-end pl-4 text-primary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- Regelsafstand -->
+        <div id="hierarchie" class="grid items-end px-6 py-4 card-a">
+          <h1 class="label-title">Regelsafstand</h1>
+          <div class="flex items-center flex-nowrap">
+            <p class="label-summ">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+              laborum.
+            </p>
+            <div class="flex justify-end pl-4 text-primary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- Contrast -->
+        <div id="hierarchie" class="grid items-end px-6 py-4 card-a">
+          <h1 class="label-title">Contrast</h1>
+          <div class="flex items-center flex-nowrap">
+            <p class="label-summ">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+              laborum.
+            </p>
+            <div class="flex justify-end pl-4 text-primary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- Aantal fonts & grootte -->
+        <div id="hierarchie" class="grid items-end px-6 py-4 card-a">
+          <h1 class="label-title">Aantal fonts & grootte</h1>
+          <div class="flex items-center flex-nowrap">
+            <p class="label-summ">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+              laborum.
+            </p>
+            <div class="flex justify-end pl-4 text-primary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- Fonts keuze & combinatie -->
+        <div id="hierarchie" class="grid items-end px-6 py-4 card-a">
+          <h1 class="label-title">Fonts keuze & combinatie</h1>
+          <div class="flex items-center flex-nowrap">
+            <p class="label-summ">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+              laborum.
+            </p>
+            <div class="flex justify-end pl-4 text-primary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- Leesbaarheid -->
+        <div id="hierarchie" class="grid items-end px-6 py-4 card-a">
+          <h1 class="label-title">Leesbaarheid</h1>
+          <div class="flex items-center flex-nowrap">
+            <p class="label-summ">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+              laborum.
+            </p>
+            <div class="flex justify-end pl-4 text-primary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- Uitlijning -->
+        <div id="hierarchie" class="grid items-end px-6 py-4 card-a">
+          <h1 class="label-title">Uitlijning</h1>
+          <div class="flex items-center flex-nowrap">
+            <p class="label-summ">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+              laborum.
+            </p>
+            <div class="flex justify-end pl-4 text-primary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- Witruimte -->
+        <div
+          id="hierarchie"
+          class="grid items-end px-6 py-4 card-a xl:col-span-2 2xl:col-span-1"
+        >
+          <h1 class="label-title">Witruimte</h1>
+          <div class="flex items-center flex-nowrap">
+            <p class="label-summ">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+              laborum.
+            </p>
+            <div class="flex justify-end pl-4 text-primary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </body>

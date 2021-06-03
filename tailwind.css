@@ -2,8 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: OpenSans;
+  src: url(/dist/fonts/OpenSans/opensans-Bold.ttf) format(" truetype ");
+}
+
 @layer base {
+  h1,
+  h2,
+  h3 {
+    @apply font-headline;
+  }
+
+  h1 {
+    @apply mb-4 text-4xl;
+  }
+
+  p {
+    @apply font-headline;
+  }
+
+  .slogan {
+    @apply text-sm font-bold text-gray-600 uppercase;
+  }
+
   .card-a {
-    @apply bg-white hover:bg-red-400;
+    @apply bg-white cursor-pointer h-52 rounded-xl hover:shadow-2 hover:bg-primary;
+  }
+
+  .label-title {
+    @apply text-4xl font-bold text-primary;
+  }
+  .label-summ {
+    @apply text-gray-400;
+  }
+
+  .card-a:hover * {
+    @apply text-white;
+  }
+
+  .card-b {
+    @apply bg-white cursor-pointer hover:bg-secondary h-52 rounded-xl hover:shadow-2;
   }
 }
